@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">    
+    <script src="../../js/mathjax-config.js"></script>
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>    
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script src="../../js/motoreNavigazioneSchede.js" defer=""></script>
+    <script src="../argomenti.js"></script>
+    <title>Compiti per casa</title>
+</head>
+
+<body>
+    <h1>
+        <span id="nav-prev" class="nav-arrow">◃</span>
+        Scheda <span id="scheda-num">5</span>
+        <span id="nav-next" class="nav-arrow">▹</span>
+    </h1>
+
+    <br>
+
+    <h3>Quiz</h3>
+<div class="quiz">
+
+    <div class="quiz-domanda">
+      <div class="quiz-testo">É possibile svolgere il seguente passaggio senza avere informazioni
+        sul valore del parametro \(a\)?
+        \[
+        \begin{align*}
+        6a\,x &amp;\lt 7
+        \\\\
+        x \lt \dfrac{7}{6a}
+        \end{align*}
+        \]
+      </div>
+      <ul class="quiz-opzioni">
+        <li>Sì.</li>
+        <li data-giusta="" data-feedback="Esatto. Se \(6a\) fosse un numero positivo, il verso 
+        della diseguaglianza rimarrebbe identico (\(\lt\)). Se invece \(6a\) fosse negativo dovremmo ribaltare il verso. \(\gt\)">No.
+        </li>
+      </ul>
+    </div>
+
+    <div class="quiz-domanda">
+      <div class="quiz-testo">
+        É possibile svolgere il seguente passaggio senza avere informazioni
+        sul valore del parametro \(a\)?
+        \[
+        \begin{align*}
+        5x - a + 1 &amp;= 0
+        \\\\
+        5x &amp;= a - 1
+        \end{align*}
+        \]
+      </div>
+      <ul class="quiz-opzioni">
+        <li data-giusta="" data-feedback="Esatto. Il termine \(a\) può essere portato al membro destro invertendone il segno a 
+        prescindere dal valore che assume.">Sì.</li>
+        <li>No.</li>
+      </ul>
+    </div>
+
+    <div class="quiz-domanda">
+      <div class="quiz-testo">
+        É possibile svolgere il seguente passaggio senza avere informazioni
+        sul valore del parametro \(a\)?
+        \[
+        \begin{align*}
+        a^2x^2 - 2ax + 1 = 0
+        \\\\
+        x = \dfrac{2a \pm \sqrt{4a^2 - 4 \cdot a^2 \cdot 1}}{2a^2}
+        \end{align*}
+        \]
+      </div>
+      <ul class="quiz-opzioni">
+        <li>Sì.</li>
+        <li data-giusta="" data-feedback="Esatto. Infatti se il denominatore \(2a^2\) fosse \(0\) la frazione non sarebbe definita.">No.
+        </li>
+      </ul>
+    </div>
+
+    <div class="quiz-domanda">
+      <div class="quiz-testo">
+        Stabilire quale tra i seguenti passaggi si può svolgere a prescindere dal valore di \(a\).
+      </div>
+      <ul class="quiz-opzioni">
+        <li data-feedback="Errato. La quantità sotto la radice potrebbe essere positiva, negativa o nulla a seconda di come scegliamo 
+        il valore di \(a\).">
+          \[
+          6x^2 -x + 2a = 0
+          \]
+          \[
+          x = \dfrac{1 \pm \sqrt{(-1)^2 -4 \cdot 6 \cdot (2a)}}{12}
+          \]
+        </li>
+        <li data-feedback="Errato. Se il termine \(2a + 1\) fosse \(0\) non potremmo dividerlo a destra ed a sinistra.">
+          \[
+          \begin{align*}
+          (2a + 1)x &amp;= 4
+          \\\\
+          \dfrac{\cancel{(2a + 1)}x}{\cancel{2a + 1}} &amp;= \dfrac{4}{2a + 1}
+          \end{align*}
+          \]
+        </li>
+        <li data-giusta="" data-feedback="Esatto.">
+          \[
+          \begin{align*}
+          6x &amp;= 5a^2 - 1
+          \\\\
+          x &amp;= \dfrac{5a^2 - 1}{6}
+          \end{align*}
+          \]
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<h3 class="green">Esercizio</h3>
+  <br>
+  <div>
+    Stabilire il dominio della funzione
+    \[
+    f(x) = \sqrt{x^2 + 4x + a}
+    \]
+
+    <br>
+
+    <button id="hintKHNVAjAFQC-button" onclick="showHint(`KHNVAjAFQC`)">Suggerimento</button>
+    <div id="hintKHNVAjAFQC" class="hint gray" style="display: none;">
+      <b class="gray">Suggerimento</b>
+      <br>
+      Per risolvere la condizione
+      \[
+      x^2 + 4x + a \geq 0
+      \]
+      dobbiamo usare il metodo della parabola. Sicuramente la concavità è rivolta verso l'alto, perché
+      il coefficiente della \(x^2\) è positivo.
+      <br>
+      <br>
+      Quando risolviamo l'equazione associata otteniamo
+      \[
+      \begin{align*}
+      x &amp;= \dfrac{-4 \pm \sqrt{16 - 4 \cdot 1 \cdot a}}{2} =
+      \\\\
+      &amp;= \dfrac{-4 \pm \sqrt{16 - 4a}}{2} =
+      \end{align*}
+      \]
+      dentro la radice abbiamo una quantità, \(16 - 4a\), che dipende dal valore di \(a\).
+      <br>
+      <br>
+      <ul>
+        <li>
+          Se \(16 - 4a\) fosse <b>positiva</b> allora la radice si potrebbe svolgere e la parabola intersecherebbe
+          l'asse delle \(x\) in
+          \[
+          x = \dfrac{-4 - \sqrt{16 - 4a}}{2} \quad\text{e}\quad \dfrac{-4 + \sqrt{16 - 4a}}{2}
+          \]
+        </li>
+        <br>
+        <li>
+          Se \(16 - 4a\) fosse <b>negativa</b> allora la radice <b>non</b> si potrebbe svolgere. L'equazione sarebbe
+          impossibile
+          e la parabola non toccherebbe l'asse delle \(x\).
+        </li>
+        <br>
+        <li>
+          Se \(16 - 4a\) fosse \(0\) allora le soluzioni dell'equazione sarebbero
+          \[
+          x = \dfrac{-4 \pm \sqrt{0}}{2} = \dfrac{-4}{2} = -2
+          \]
+          quindi la parabola toccherebbe l'asse delle \(x\) solamente in \(-2\).
+        </li>
+      </ul>
+
+    </div>
+
+    <br>
+
+    <button id="hintJswnLlEEBc-button" onclick="showHint(`JswnLlEEBc`)">Soluzione</button>
+    <div id="hintJswnLlEEBc" class="hint gray" style="display: none;">
+      <b class="gray">Soluzione</b>
+      <br>
+      <ul>
+        <li>
+          se \(\,\,a \geq 4\,\,\) allora
+          \[
+          D = (-\infty\,,\,\,+\infty)
+          \]
+        </li>
+        <br>
+        <li>
+          se \(\,\, a \lt 4\,\,\) allora
+          <div class="formula">
+            \[
+            D = \left(-\infty, -2 - \sqrt{4 - a}\right] \cup \left[-2 + \sqrt{4 - a}, +\infty\right)
+            \]
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<h3 class="green">Esercizio</h3>
+      <br>
+      <div>
+        Consideriamo le seguenti funzioni <b>dipendenti da un parametro</b> (che indichiamo con \(a\))
+        \[
+        s:\quad y = ax^2 +x -2
+        \]
+        \[
+        r:\quad y = \dfrac{1}{x -a}
+        \]
+        <ol type="A" style="font-weight: bold;">
+          <li>
+            <span style="font-weight: normal;">
+
+              Stabilire per quali valori del parametro \(a\) il grafico della funzione \(s\)
+              passa per il punto \((2\,;\,\,1)\).
+              <br>
+              <br>
+              <button id="hintnJoViwKRkw-button" onclick="showHint(`nJoViwKRkw`)">Soluzione</button>
+              <div id="hintnJoViwKRkw" class="hint" style="display: none;">
+                <b class="gray">Soluzione</b> <span class="gray">\(a = \dfrac{1}{4}\)</span>
+              </div>
+
+            </span>
+          </li>
+          <br>
+          <li>
+            <span style="font-weight: normal;">
+
+              Stabilire per quali valori del parametro \(a\) si ha \(r(-1) = \dfrac{2}{5}\).
+              <br>
+              <br>
+              <button id="hintPRtqTwcsOI-button" onclick="showHint(`PRtqTwcsOI`)">Soluzione</button>
+              <div id="hintPRtqTwcsOI" class="hint" style="display: none;">
+                <b class="gray">Soluzione</b> <span class="gray">\(a = -\dfrac{7}{2}\)</span>
+              </div>
+
+            </span>
+          </li>
+          <br>
+          <li>
+            <span style="font-weight: normal;">
+
+              Stabilire per quali valori del parametro \(a\) le funzioni \(s\) ed \(r\) assumono lo stesso
+              valore in corrispondenza di \(x = 2\).
+              <br>
+              <br>
+              <button id="hintOKjyFxjXIb-button" onclick="showHint(`OKjyFxjXIb`)">Soluzione</button>
+              <div id="hintOKjyFxjXIb" class="hint" style="display: none;">
+                <b class="gray">Soluzione</b> <span class="gray">\(a = 1 \pm \dfrac{\sqrt{3}}{2}\)</span>
+              </div>
+
+            </span>
+          </li>
+        </ol>
+      </div>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+
+    <script src="../../js/hintAndSlide.js"></script>
+    <script src="../../js/motoreGeogebraFullScreen.js" defer=""></script> <!-- sempre DOPO l'iniezione degli applet -->
+    <script src="../../js/motoreQuiz.js"></script>
+    <script src="../../js/motoreQuizVideo.js"></script>
+
+    <br>
+    <br>
+
+
+
+
+</body></html>

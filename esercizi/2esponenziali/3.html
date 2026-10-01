@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">    
+    <script src="../../js/mathjax-config.js"></script>
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>    
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script src="../../js/motoreNavigazioneSchede.js" defer=""></script>
+    <script src="../argomenti.js"></script>
+    <title>Compiti per casa</title>
+</head>
+
+<body>
+    <h1>
+        <span id="nav-prev" class="nav-arrow">◃</span>
+        Scheda <span id="scheda-num">3</span>
+        <span id="nav-next" class="nav-arrow">▹</span>
+    </h1>
+
+    <br>
+
+    <h3 class="green">Esercizio</h3><br><div>
+        \[
+        \dfrac{3^{2x + 2} + 2\cdot 3^{x} - 3}{3^{2x + 2} - 1} \leq 3
+        \]
+
+        <br>
+
+        <button id="hintZcNOjtHaGU-button" onclick="showHint(`ZcNOjtHaGU`)">Svolgimento</button>
+        <div id="hintZcNOjtHaGU" class="hint gray" style="display: none;">
+            <b class="gray">Soluzione</b>
+            <br>
+            La disequazione è risolta per \(\,\,x \leq -2\,\,\) oppure \(\,\,x \gt -1\)
+        </div>
+
+    </div>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<h3 class="green">Esercizio</h3><br><div>
+        Risolvere l'equazione
+        \[
+        \dfrac{\left(2^{2x + 3}\right)^3}{2^{x - 1} \cdot 8^{3x - 1}} = \dfrac{1}{2^x}
+        \]
+
+        <div class="gray">
+            <b>Suggerimento</b>
+            <br>
+            Per sviluppare il termine al denominatore usate la regola "potenza di potenza":
+            \[
+                \left(2^{2x + 3}\right)^3 = 2^{\color{red}{?}}
+            \]
+            Stessa cosa per il secondo fattore al denominatore:
+            \[
+                8^{3x - 1} = \left(2^3\right)^{3x - 1} = 2^{\color{red}{?}}
+            \]
+            Per il termine al secondo membro invece potete sfruttare le potenze negative. Abbiamo 
+            visto che 
+            \[
+                2^{-5} = \dfrac{1}{2^5}
+            \]
+            Se leggiamo questa uguaglianza da destra a sinistra abbiamo che 
+            \[
+                \dfrac{1}{2^5} = 2^{-5}
+            \]
+            Mimando questo passaggio abbiamo che 
+            \[
+                \dfrac{1}{2^x} = 2^{\color{red}{}?}
+            \]
+        </div>
+
+        <button id="hintPuvonEtYzU-button" onclick="showHint(`PuvonEtYzU`)">Soluzione</button>
+        <div id="hintPuvonEtYzU" class="hint gray" style="display: none;">
+            <b class="gray">Soluzione</b>
+            <br>
+            L'equazione ha soluzione \(x = \dfrac{13}{3}\)
+        </div>
+    </div>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<h3 class="green">Esercizio</h3><br><div>
+        Individuare il dominio della funzione 
+        \[
+            f(x) = \dfrac{\sqrt{2^{^x} - \sqrt{8}}}{9x - 1}
+        \]
+    </div><br><button id="hintYRdtLYZeFm-button" onclick="showHint(`YRdtLYZeFm`)">Soluzione</button><div id="hintYRdtLYZeFm" class="hint gray" style="display: none;">     
+        <b class="gray">Soluzione</b> 
+        <br>
+        Il dominio della funzione è l'insieme
+        \[
+            D = \Big[\dfrac{3}{2}\,,\,\,+\infty\Big)
+        \]
+    </div>
+
+    <script src="../../js/hintAndSlide.js"></script>
+    <script src="../../js/motoreGeogebraFullScreen.js" defer=""></script> <!-- sempre DOPO l'iniezione degli applet -->
+    <script src="../../js/motoreQuiz.js"></script>
+    <script src="../../js/motoreQuizVideo.js"></script>
+
+    <br>
+    <br>
+
+
+
+
+</body></html>
